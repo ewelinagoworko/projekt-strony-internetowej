@@ -1,9 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+
 body {
 	margin: 0;
 	font-family: 'Lato', 'sans-serif';
 }
 
-.background {
+#header {
 	height: 600px;
 	width: 100%;
 	margin: auto;
@@ -16,6 +21,7 @@ nav {
 	z-index: 1;
 	width: 100%;
 	margin: 0;
+	text-align: right;
 }
 
 #menu ul .menu-item {
@@ -32,30 +38,33 @@ nav a {
 
 #header {
 	position: relative;
+	font-size: 30px;
 }
 
-#header h1 {
+.header {
 	position: absolute;
-	top: 50%;
 	width: 100%;
+	top: 55%;
 	text-align: center;
 	color: #fff;
 	margin: 0;
 	transform: translateY(-50%);
 	font-family: 'Roboto', 'sans serif';
-	font-size: 100px;
 }
 
-#header h3 {
-	position: absolute;
-	top: 70%;
-	width: 100%;
+#about-header {
 	text-align: center;
-	color: #fff;
-	margin: 0;
-	transform: translateY(-50%);
-	font-family: 'Lato', 'sans-serif';
-	font-size: 40px;
-	font-weight: normal;
+}
+
+#jannowak {
+	float: left;
+	height: 500px;
+	padding: 100px;
+
+}
+
+#about-content {
+	top: 80%; 
+	padding: 300px;
 	
 }
