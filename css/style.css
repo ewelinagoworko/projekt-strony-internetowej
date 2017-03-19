@@ -1,3 +1,5 @@
+/* Style generalne*/
+
 * {
 	box-sizing: border-box;
 }
@@ -8,48 +10,78 @@ body {
 	font-family: 'Lato', 'sans-serif';
 }
 
-#header {
-	height: 600px;
-	width: 100%;
-	margin: auto;
-	background-image: url(../portfolio-grafiki/img/header-background.jpg)
+span {
+	color: #1ac056;
 }
 
-nav {
+/*Koniec styli generalnych*/
+
+/* Wstawienie obrazka jako tło dla nagłowka */
+#main-header {
+	height: 100vh;
+	margin: auto;
+	background-image: url(../portfolio-grafiki/img/header-background.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+/*koniec wstawienia obrazka jako tło*/
+
+/*Menu nawigacyjne*/
+
+#main-menu {
 	background-color: white;
 	position: fixed;
-	z-index: 1;
+	z-index: 10;
 	width: 100%;
 	margin: 0;
 	text-align: right;
+
 }
 
-#menu ul .menu-item {
+#main-menu ul .menu-item {
 	display: inline-block;
 	padding: 20px;
-	
 }
 
-nav a {
+#main-menu ul .menu-item a {
 	color: #1ac056;
 	text-decoration: none;
+	transition: all .3s;
 	
 }
 
-#header {
-	position: relative;
-	font-size: 30px;
+#main-menu ul .menu-item a:hover {
+	color: black;
 }
+
+#main-header {
+	position: relative;
+}
+
+/*koniec menu nawigacyjnego*/
+
+/*Nagłowek h1 i h2 na tle*/
 
 .header {
 	position: absolute;
-	width: 100%;
-	top: 55%;
+	top: 50%;
 	text-align: center;
 	color: #fff;
-	margin: 0;
+	right: 0;
+	left: 0;
 	transform: translateY(-50%);
-	font-family: 'Roboto', 'sans serif';
+	font-family: 'Roboto', sans-serif;
+}
+
+#main-header .header h1 {
+	font-size: 4em;
+	font-weight: 300;
+}
+
+#main-header .header h2 {
+	font-size: 2.3em;
+	font-weight: 300;
 }
 
 #about-header {
@@ -63,8 +95,18 @@ nav a {
 
 }
 
+p {
+	line-height: 25px;
+}
+
 #about-content {
-	top: 80%; 
+	
+}
+
+/*
+#header p {
 	padding: 300px;
+	overflow: hidden;
+	text-align: justify;
 	
 }
