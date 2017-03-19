@@ -132,6 +132,10 @@ h3 {
 	box-shadow: 0px 4px 5px 0px rgba(133,133,133,1);
 }
 
+#about p:first-child {
+	margin: 0;
+}
+
 /*koniec sekcji about - o mnie*/
 
 /*początek sekcji moje umiejętności*/
@@ -162,6 +166,16 @@ h3 {
 #portfolio {
 	text-align: center;
 }
+
+#zdj1, #zdj2, #zdj3 {
+	height: 340px;
+	width: 340px;
+	display: inline-block;
+}
+
+
+
+
 
 
 footer {
