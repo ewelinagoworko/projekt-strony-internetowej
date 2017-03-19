@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	font-family: 'Lato', 'sans-serif';
+}
+
+.background {
+	height: 600px;
+	width: 100%;
+	margin: auto;
+	background-image: url(../portfolio-grafiki/img/header-background.jpg)
+}
+
+nav {
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	margin: 0;
+}
+
+#menu ul .menu-item {
+	display: inline-block;
+	padding: 20px;
+	
+}
+
+nav a {
+	color: #1ac056;
+	text-decoration: none;
+	
+}
+
+#header {
+	position: relative;
+}
+
+#header h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	transform: translateY(-50%);
+	font-family: 'Roboto', 'sans serif';
+	font-size: 100px;
+}
+
+#header h3 {
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	transform: translateY(-50%);
+	font-family: 'Lato', 'sans-serif';
+	font-size: 40px;
+	font-weight: normal;
+	
+}
