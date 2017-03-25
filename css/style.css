@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 
-
 body {
 	margin: 0;
 	font-family: 'Lato', 'sans-serif';
@@ -28,13 +27,18 @@ p {
 	line-height: 1.5em;
 }
 
-h3, h4 {
+h3,
+h4 {
 	font-size: 2em;
 	font-weight: 300;
 }
+
+
 /*Koniec styli generalnych*/
 
+
 /* Wstawienie obrazka jako tło dla nagłowka */
+
 #main-header {
 	height: 100vh;
 	margin: auto;
@@ -43,7 +47,9 @@ h3, h4 {
 	background-size: cover;
 }
 
+
 /*koniec wstawienia obrazka jako tło*/
+
 
 /*Menu nawigacyjne*/
 
@@ -54,13 +60,11 @@ h3, h4 {
 	width: 100%;
 	margin: 0;
 	text-align: right;
-
 }
 
 #main-menu label,
 #main-menu #drop {
 	display: none;
-	
 }
 
 #main-menu ul .menu-item {
@@ -72,7 +76,6 @@ h3, h4 {
 	color: #1ac056;
 	text-decoration: none;
 	transition: all .3s;
-	
 }
 
 #main-menu ul .menu-item a:hover {
@@ -83,7 +86,9 @@ h3, h4 {
 	position: relative;
 }
 
+
 /*koniec menu nawigacyjnego*/
+
 
 /*Nagłowek h1 i h2 na tle, sekcja header*/
 
@@ -108,9 +113,12 @@ h3, h4 {
 	font-weight: 300;
 }
 
+
 /*koniec sekcji header*/
 
+
 /*początek sekcji about - o mnie*/
+
 #about-header {
 	text-align: center;
 	font-size: 2em;
@@ -125,7 +133,6 @@ h3, h4 {
 	max-width: 100%;
 	border: 20px solid white;
 	border-radius: 10px;
-
 }
 
 #about {
@@ -133,16 +140,18 @@ h3, h4 {
 	background-color: azure;
 	background-position: center;
 	background-size: cover;
-	-webkit-box-shadow: 0px 4px 5px 0px rgba(133,133,133,1);
-	-moz-box-shadow: 0px 4px 5px 0px rgba(133,133,133,1);
-	box-shadow: 0px 4px 5px 0px rgba(133,133,133,1);
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(133, 133, 133, 1);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(133, 133, 133, 1);
+	box-shadow: 0px 4px 5px 0px rgba(133, 133, 133, 1);
 }
 
 #about p:first-child {
 	margin: 0;
 }
 
+
 /*koniec sekcji about - o mnie*/
+
 
 /*początek sekcji moje umiejętności*/
 
@@ -150,19 +159,25 @@ h3, h4 {
 	text-align: center;
 }
 
-#html5, #css3, #js, #jquery {
+#html5,
+#css3,
+#js,
+#jquery {
 	display: inline-block;
 	margin-left: 15px;
-	margin-right: 15px;	
+	margin-right: 15px;
 }
 
+
 /*koniec sekcji moje umiejętności*/
+
 
 /*początek sekcji moje portfolio*/
 
 #portfolio {
 	text-align: center;
 }
+
 
 /*usuwamy biale przerwy miedzy zdjeciami, wiec robimy font size 0 dla rodzica czyli portfolio-items i potem dla dziecka (portfolio-item) ustawiamy font-size: initial*/
 
@@ -191,10 +206,8 @@ h3, h4 {
 	transition: all .3s;
 }
 
-
 #portfolio .portfolio-item .portfolio-mask:hover {
 	opacity: 1;
-	
 }
 
 #portfolio .portfolio-item .portfolio-mask .portfolio-content {
@@ -218,7 +231,8 @@ h3, h4 {
 	width: 100%;
 }
 
-#portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner h3, h4 {
+#portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner h3,
+h4 {
 	font-size: 1.5em;
 }
 
@@ -229,12 +243,10 @@ h3, h4 {
 
 #portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner i:hover {
 	color: #1ac056;
-	
 }
 
 #portfolio-item-1 {
 	background-image: url(../portfolio-grafiki/img/portfolio1.jpg)
-		
 }
 
 #portfolio-item-2 {
@@ -243,8 +255,8 @@ h3, h4 {
 
 #portfolio-item-3 {
 	background-image: url(../portfolio-grafiki/img/portfolio4.jpg)
-		
 }
+
 
 /* koniec sekcji moje portfolio*/
 
@@ -289,7 +301,6 @@ h3, h4 {
 koniec mojej wersji sekcji portfolio*/
 
 
-
 /*sekcja kontakt - adres i formularz - wersja z zajęć*/
 
 #contact {
@@ -326,7 +337,8 @@ koniec mojej wersji sekcji portfolio*/
 	width: 50px;
 	margin-right: 10px;
 	text-align: center;
-	line-height: 50px;  /*line-height do wysrodkowania ikonek social icons w kwadratach*/
+	line-height: 50px;
+	/*line-height do wysrodkowania ikonek social icons w kwadratach*/
 	font-size: 1.4em;
 	transition: all .3s;
 }
@@ -340,7 +352,8 @@ koniec mojej wersji sekcji portfolio*/
 	padding-top: 60px;
 }
 
-#contact form input:not([type='submit']), #contact form textarea {
+#contact form input:not([type='submit']),
+#contact form textarea {
 	width: 100%;
 	background-color: #2b4a64;
 	border: 0px solid #fff;
@@ -349,7 +362,8 @@ koniec mojej wersji sekcji portfolio*/
 	color: #fff;
 }
 
-#contact form input:not([type='submit']):focus, #contact form textarea:focus {
+#contact form input:not([type='submit']):focus,
+#contact form textarea:focus {
 	width: 100%;
 	background-color: #4c6f8d;
 	border: 0px solid #fff;
@@ -368,13 +382,14 @@ koniec mojej wersji sekcji portfolio*/
 	transition: all .3s;
 }
 
-
 #contact form input[type="submit"]:hover {
 	background-color: #fff;
 	color: #1ac056
 }
 
+
 /*koniec sekcji kontak z zajęć*/
+
 
 /*stopka*/
 
@@ -384,9 +399,10 @@ footer {
 	padding: 0 60px;
 }
 
-footer p{
+footer p {
 	margin: 0;
 }
+
 
 /*początek sekcji kontakt - moja wersja
 
@@ -445,4 +461,3 @@ input[type="submit"] {
 	left: 420px;
 	
 }
-

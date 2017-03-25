@@ -4,26 +4,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Strona internetowa</title>
-	
+
 	<!-- ważna kolejnosc podpinania linkow, nasze style jako ostatnie podpinamy -->
-	
-	
+
+
 	<!-- Font styles -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-	
+
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	
+
 	<!-- Głowne style CSS -->
 	<link rel="stylesheet" href="css/style.css">
-	
+
 	<!-- Style responsywne CSS -->
 	<link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
+
+
+
 <body>
+
+	<!-- menu nawigacyjne - start -->
+
 	<nav id="main-menu">
 		<label for="drop">Menu</label>
 		<input type="checkbox" id="drop">
@@ -35,13 +41,20 @@
 		</ul>
 	</nav>
 
+	<!-- menu nawigacyjne - stop -->
+
+	<!-- header - naglowek na tle - start -->
+
 	<header id="main-header">
 		<div class="header">
 			<h1>Jan <span>Nowak</span></h1>
 			<h2>Front-End Developer</h2>
 		</div>
-
 	</header>
+
+	<!-- header - naglowek na tle - stop -->
+
+	<!-- Section o mnie - start -->
 
 	<section id="about">
 		<h3 id="about-header">O <span>mnie</span></h3>
@@ -53,7 +66,9 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis praesentium tempora quibusdam vero cum minus, omnis molestias libero, harum accusamus expedita, placeat explicabo, corporis distinctio iusto. Sapiente minus, fuga possimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis praesentium tempora quibusdam vero cum minus, omnis molestias libero, harum accusamus expedita, placeat explicabo, corporis distinctio iusto. Sapiente minus, fuga possimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis praesentium tempora quibusdam vero cum minus, omnis molestias libero, harum accusamus expedita, placeat explicabo, corporis distinctio iusto. Sapiente minus, fuga possimus.</p>
 		</div>
 
+		<!-- Section o mnie - stop -->
 
+		<!-- Section - skills - start -->
 	</section>
 
 	<br />
@@ -79,6 +94,8 @@
 		</div>
 	</section>
 
+	<!-- Section - skills - stop -->
+
 	<!-- inna mozliwosc zapisania tej sekcji z ikonkami w sekcji moje umiejetnosci
 	
 	<div class="skills-icons">
@@ -89,6 +106,7 @@
 	</div>
 -->
 
+	<!-- Section - moje portfolio - start -->
 
 	<section id="portfolio">
 		<h3 id="mojeportfolio">Moje <span>portfolio</span></h3>
@@ -136,19 +154,22 @@
 
 	</section>
 
-		<!-- MOJA WERSJA SEKCJI PORTFOLIO
+	<!-- Section - moje portfolio - stop -->
+
+	<!-- MOJA WERSJA SEKCJI PORTFOLIO
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rem eum autem quo doloremque aspernatur inventore iusto, maxime, explicabo asperiores, architecto quam expedita cumque cum quos quidem cupiditate deleniti natus!</p>
 		<div id="zdj1"></div>
 		<div id="zdj2"></div>
 		<div id="zdj3"></div>
 	</section> -->
 
- 
- <section id="contact">
-	<div class="col-1-2">
-		<h2>Jan <span>Nowak</span></h2>
+	<!-- Section - kontakt + formularz - start -->
 
-		<address>
+	<section id="contact">
+		<div class="col-1-2">
+			<h2>Jan <span>Nowak</span></h2>
+
+			<address>
 			ul.Mostowa 6/13
 			<br> 31-061 Krakow
 			<br>
@@ -158,34 +179,38 @@
 			<a href="mailto:example@example.pl">example@example.pl</a>
 		</address>
 
-		<div class="social-icons">
-			<a href=""><i class="fa fa-facebook"></i></a>
-			<a href=""><i class="fa fa-google-plus"></i></a>
-			<a href=""><i class="fa fa-twitter"></i></a>
-			<a href=""><i class="fa fa-linkedin"></i></a>
+			<div class="social-icons">
+				<a href=""><i class="fa fa-facebook"></i></a>
+				<a href=""><i class="fa fa-google-plus"></i></a>
+				<a href=""><i class="fa fa-twitter"></i></a>
+				<a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
 		</div>
-	</div>
 
-	<div class="col-1-2">
-		<form method="post" action="//formspree.io/ewelina.goworko@gmail.com">
-			<input type="text" placeholder="Imię i nazwisko">
-			<input type="text" placeholder="E-mail">
-			<textarea placeholder="Treść wiadomości"></textarea>
-			<input type="submit" value="Wyślij" />
-		</form>
-	</div>
+		<div class="col-1-2">
+			<form method="post" action="//formspree.io/ewelina.goworko@gmail.com">
+				<input type="text" placeholder="Imię i nazwisko">
+				<input type="text" placeholder="E-mail">
+				<textarea placeholder="Treść wiadomości"></textarea>
+				<input type="submit" value="Wyślij" />
+			</form>
+		</div>
 
-</section>
+	</section>
+
+	<!-- Section - kontakt + formularz - stop -->
+
+	<!-- Section - stopka - start -->
+
+	<footer>
+		<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Jan Nowak</p>
+	</footer>
+
+	<!-- Section - stopka - stop -->
 
 
-<footer>
-	<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Jan Nowak</p>
-</footer>
 
-
-
- 
-<!-- moja wersja sekcji kontakt i formularz
+	<!-- moja wersja sekcji kontakt i formularz 
 
 <section id="kontakt">
 
@@ -230,6 +255,7 @@
 	</div>
 
 </section>
+-->
 
 </body>
 
