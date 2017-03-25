@@ -122,13 +122,13 @@ h3, h4 {
 
 #jannowak {
 	max-height: 400px;
+	max-width: 100%;
 	border: 20px solid white;
 	border-radius: 10px;
 
 }
 
 #about {
-	height: 100vh;
 	margin: auto;
 	background-color: azure;
 	background-position: center;
