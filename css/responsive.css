@@ -39,12 +39,20 @@
 		display: block;
 		width: 100%;
 	}
+	
+	#contact {
+		text-align: center;
+	}
+	
+	#contact .col-1-2 h2 {
+		text-align: center;
+	}
 
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
 	
-
+	
 }
 
 
