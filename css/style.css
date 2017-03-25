@@ -287,8 +287,45 @@ h3, h4 {
 	background-color: #213b50;
 }
 
+#contact-content #kontakt {
+	padding: 50px;
+}
 #contact-content {
 	font-style: normal;
+	color: white;
+	line-height: 25px;
+}
+
+#contact-content a {
+	color: white;
+	text-decoration: none;
+}
+
+#contact-content a > span {
+	text-decoration: underline;
+	color: #1ac056;
 }
 
 
+/* poczatek sekcji frormularz*/
+
+#formularz {
+	text-align: left;
+}
+
+input[name], textarea {
+	background-color: #2b4a64;
+	border: none;
+	height: 50px;
+	width: 500px;
+	padding: 10px;
+}
+
+
+input[type="submit"] {
+	background-color: #1ac056;
+	color: white;
+	width: 100px;
+	height: 40px;
+	border: none;
+}
