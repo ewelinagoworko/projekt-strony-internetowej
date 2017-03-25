@@ -215,6 +215,7 @@ h3, h4 {
 	top: 50%;
 	transform: translateY(-50%);
 	padding: 5px;
+	width: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner h3, h4 {
@@ -345,6 +346,7 @@ koniec mojej wersji sekcji portfolio*/
 	border: 0px solid #fff;
 	padding: 10px;
 	margin-bottom: 15px;
+	color: #fff;
 }
 
 #contact form input:not([type='submit']):focus, #contact form textarea:focus {
