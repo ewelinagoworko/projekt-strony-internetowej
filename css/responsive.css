@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+	
+	#main-menu label {
+		display: block;	
+		color: #1ac056;
+		text-align: right;
+		padding: 15px;
+	}
+	#main-menu ul {
+		margin: 0;
+		display: none;
+	}
+	
+	#main-menu ul .menu-item {
+		display: block;
+		padding: 15px;
+	}
+	
+	#main-menu #drop:checked + ul {
+		display: block;
+	}
+}
+

@@ -57,6 +57,12 @@ h3, h4 {
 
 }
 
+#main-menu label,
+#main-menu #drop {
+	display: none;
+	
+}
+
 #main-menu ul .menu-item {
 	display: inline-block;
 	padding: 20px;
