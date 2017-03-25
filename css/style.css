@@ -368,6 +368,17 @@ koniec mojej wersji sekcji portfolio*/
 
 /*koniec sekcji kontak z zajęć*/
 
+#copyright {
+	background-color: #4c6f8d;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#copyright p {
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 0;
+}
 
 /*początek sekcji kontakt - moja wersja
 
