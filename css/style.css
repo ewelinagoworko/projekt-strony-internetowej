@@ -179,7 +179,7 @@ h4 {
 }
 
 
-/*usuwamy biale przerwy miedzy zdjeciami, wiec robimy font size 0 dla rodzica czyli portfolio-items i potem dla dziecka (portfolio-item) ustawiamy font-size: initial*/
+/*usuwamy biale paski (przerwy) miedzy zdjeciami, wiec robimy font size 0 dla rodzica czyli portfolio-items i potem dla dziecka (portfolio-item) ustawiamy font-size: initial*/
 
 #portfolio .portfolio-items {
 	font-size: 0;
@@ -391,7 +391,7 @@ koniec mojej wersji sekcji portfolio*/
 /*koniec sekcji kontak z zajęć*/
 
 
-/*stopka*/
+/*stopka - start*/
 
 footer {
 	background-color: #4c6f8d;
@@ -402,6 +402,8 @@ footer {
 footer p {
 	margin: 0;
 }
+
+/*stopka - koniec*/
 
 
 /*początek sekcji kontakt - moja wersja
