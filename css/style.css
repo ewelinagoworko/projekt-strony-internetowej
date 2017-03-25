@@ -281,9 +281,93 @@ h3, h4 {
 
 */
 
-/*początek sekcji kontakt*/
+/*sekcja kontakt - wersja z zajęć*/
 
-#kontakt, #formularz {
+#contact {
+	background-color: #213b50;
+	color: #fff;
+}
+
+#contact h2 {
+	text-align: left;
+}
+
+#contact address {
+	font-style: normal;
+}
+
+#contact address a {
+	color: #1ac056;
+	transition: all .3s;
+}
+
+#contact address a:hover {
+	color: #fff;
+}
+
+#contact .social-icons {
+	margin-top: 30px;
+}
+
+#contact .social-icons a {
+	color: #fff;
+	border: 1px solid #fff;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 50px;  /*line-height do wysrodkowania ikonek social icons w kwadratach*/
+	font-size: 1.4em;
+	transition: all .3s;
+}
+
+#contact .social-icons a:hover {
+	color: #213b50;
+	background-color: #fff;
+}
+
+#contact form {
+	padding-top: 60px;
+}
+
+#contact form input:not([type='submit']), #contact form textarea {
+	width: 100%;
+	background-color: #2b4a64;
+	border: 0px solid #fff;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#contact form input:not([type='submit']):focus, #contact form textarea:focus {
+	width: 100%;
+	background-color: #4c6f8d;
+	border: 0px solid #fff;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#contact form input[type="submit"] {
+	background-color: #1ac056;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	float: right;
+	transition: all .3s;
+}
+
+
+#contact form input[type="submit"]:hover {
+	background-color: #fff;
+	color: #1ac056
+}
+
+
+/*początek sekcji kontakt - moja wersja
+
+#kontakt {
 	background-color: #213b50;
 }
 
@@ -307,25 +391,35 @@ h3, h4 {
 }
 
 
-/* poczatek sekcji frormularz*/
+
+/* poczatek frormularza w sekcji kontakt*
 
 #formularz {
-	text-align: left;
+	float: left;
+
 }
 
 input[name], textarea {
 	background-color: #2b4a64;
 	border: none;
-	height: 50px;
-	width: 500px;
+	height: 100%;
+	width: 100%;
 	padding: 10px;
 }
 
+textarea {
+	height: 50%;
+}
 
 input[type="submit"] {
 	background-color: #1ac056;
 	color: white;
-	width: 100px;
+	width: 20%;
 	height: 40px;
 	border: none;
+	margin-right: 300px;
+	position: relative;
+	left: 420px;
+	
 }
+
