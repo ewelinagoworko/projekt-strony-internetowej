@@ -54,7 +54,7 @@ h4 {
 /*Menu nawigacyjne*/
 
 #main-menu {
-	background-color: white;
+	background-color: transparent;
 	position: fixed;
 	z-index: 10;
 	width: 100%;
@@ -73,17 +73,25 @@ h4 {
 }
 
 #main-menu ul .menu-item a {
-	color: #1ac056;
+	color: #fff;
 	text-decoration: none;
 	transition: all .3s;
 }
 
 #main-menu ul .menu-item a:hover {
-	color: black;
+	color: #1ac056;
 }
 
-#main-header {
-	position: relative;
+#main-menu.scroll {
+	background-color: #fff;
+}
+
+#main-menu.scroll ul .menu-item a {
+	color: #1ac056;
+}
+
+#main-menu.scroll ul .menu-item a:hover {
+	color: #291f1a;
 }
 
 
@@ -91,6 +99,10 @@ h4 {
 
 
 /*Nagłowek h1 i h2 na tle, sekcja header*/
+
+#main-header {
+	position: relative;
+}
 
 .header {
 	position: absolute;
